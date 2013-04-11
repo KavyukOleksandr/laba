@@ -1,0 +1,30 @@
+
+#include <stdlib.h>
+#include <math.h>
+#include<iostream>
+using namespace std;
+double y;
+void f(int x,int a)
+    {
+    if (x<-5 || x==3 || x>5)
+    cout<<"ERROR";
+    else 
+    {
+    y=(25-x*x)^(1/2)+(2*a)/(9*x-3);
+     cout<<y;}
+    }
+int main()
+{
+int c,d;
+double y;
+  cout<<"x";
+  cin>>c;
+  cout<<"a";
+  cin>>d;
+  f( c , d);
+  cin.get();
+  cin.get();
+  return (0);
+}
+
+
