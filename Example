@@ -1,7 +1,6 @@
-
 #include <stdlib.h>
 #include <math.h>
-#include<iostream.h>
+#include<iostream.m>
 using namespace std;
 double y;
 void f(int x,int a)
